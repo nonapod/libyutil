@@ -9,19 +9,21 @@
 #include <stdio.h>
 #include "Yutil.h"
 
-Node* initNode();
+Node *initNode();
 
-void appendNode(Node* node, void *data);
-void removeNode(Node** node, int idx);
-void shiftNode(Node** node);
-void popNode(Node** node);
-void headNode(Node** node);
-void tailNode(Node** node);
-int lengthNode(Node* node);
+void appendNode(Node *node, void *data);
 
+void removeNode(Node **node, int idx);
 
+void shiftNode(Node **node);
 
+void popNode(Node **node);
 
+void headNode(Node **node);
+
+void tailNode(Node **node);
+
+int lengthNode(Node *node);
 
 
 #endif //YUTIL_H
