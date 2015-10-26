@@ -6,7 +6,7 @@
    ------------------------- */
 
 /**
- * initNode()
+ * initNode
  * creates a new node list with self as the head
  * and tail
  */

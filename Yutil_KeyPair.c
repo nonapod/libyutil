@@ -3,6 +3,10 @@
 
 #include "Yutil_KeyPair.h"
 
+/* --------------------
+    Key/Val Dictionary
+   -------------------- */
+
 /**
  * initKeyDict
  * initialised a new KeyPair dictionary
