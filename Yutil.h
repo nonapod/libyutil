@@ -2,7 +2,7 @@
 #define YUTIL_H
 
 #include <string.h>
-#define KEYPAIR_HASH_SIZE 2
+#define KEYPAIR_HASH_SIZE 500
 
 typedef struct KeyPair KeyPair;
 typedef struct KeyDict KeyDict;
