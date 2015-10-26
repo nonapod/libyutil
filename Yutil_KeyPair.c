@@ -110,10 +110,10 @@ KeyPair* findKeyDict(char* key, KeyDict*dict) {
  * returns a simple hash from a c string
  */
 int hashKeyPair(char *key) {
-    int32_t hash = 0;
+    int hash = 0;
 
     while(*key != '\0') {
-        hash += (int32_t) *key;
+        hash += (int) *key;
         key++;
     }
 
