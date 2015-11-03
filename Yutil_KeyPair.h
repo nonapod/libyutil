@@ -1,7 +1,7 @@
 #ifndef RADIOTIDE_YUTIL_KEYPAID_H
 #define RADIOTIDE_YUTIL_KEYPAID_H
 
-#import "Yutil.h"
+#include "Yutil.h"
 
 
 KeyDict* initKeyDict();
